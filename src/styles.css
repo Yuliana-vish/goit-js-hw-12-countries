@@ -46,7 +46,8 @@ body::after {
   border: 2px solid;
   border-radius: 2px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.2);
-  font-size: 20px;
+  font-size: 18px;
+  padding: 15px;
 }
 
 .countries_list {

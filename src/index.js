@@ -16,7 +16,7 @@ const dataShow = countries => {
       delay: 2000,
     });
   }
-  if (countries.length > 1 && countries.length <= 10) {
+  if (countries.length > 2 && countries.length <= 10) {
     refs.content.innerHTML = countriesList(countries);
   }
   if (countries.length === 1) {
